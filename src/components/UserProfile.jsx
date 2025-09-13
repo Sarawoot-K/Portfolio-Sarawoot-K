@@ -43,22 +43,26 @@ const UserProfile = () => {
         <div className="flex flex-wrap justify-center gap-6">
           <div>
             <Button variant="outline" className="btn cursor">
-              link-in
+              <a href="https://www.linkedin.com/in/sarawoot-khumkhat/">
+                link-in
+              </a>
             </Button>
           </div>
           <div>
             <Button variant="outline" className="btn cursor">
-              line
+              <a href="https://line.me/ti/p/KHUJwV-TTw">line</a>
             </Button>
           </div>
           <div>
             <Button variant="outline" className="btn cursor">
-              Facebook
+              <a href="https://www.facebook.com/share/17PzJLtxoK/?mibextid=wwXIfr">
+                Facebook
+              </a>
             </Button>
           </div>
           <div>
             <Button variant="outline" className="btn cursor">
-              E-mail
+              <a href="mailto:Sarawoot.Kk27@gmail.com">E-mail</a>
             </Button>
           </div>
         </div>
@@ -334,7 +338,7 @@ const UserProfile = () => {
           <div className=" flex gap-3">
             <div className="w-4/9 flex flex-col gap-3">
               <div className="rounded-2xl p-3">
-                <p>ส่งอีเมลล์ : </p> Jays.sara27@gmail.com{" "}
+                <p>ส่งอีเมลล์ : </p> Sarawoot.Kk27@gmail.com
               </div>
               <div className="rounded-2xl p-3">
                 ผมเป็นโปรแกรมเมอร์มือใหม่ไฟแรงที่พร้อมลุยงาน
@@ -346,22 +350,28 @@ const UserProfile = () => {
                 <div className="flex flex-wrap justify-center gap-2">
                   <div>
                     <Button variant="outline" className="btn cursor">
-                      link-in
+                      <a href="https://www.linkedin.com/in/sarawoot-khumkhat/">
+                        link-in
+                      </a>
                     </Button>
                   </div>
                   <div>
                     <Button variant="outline" className="btn cursor">
-                      line
+                      <a href="https://line.me/ti/p/KHUJwV-TTw">line</a>
                     </Button>
                   </div>
                   <div>
                     <Button variant="outline" className="btn cursor">
-                      Facebook
+                      <a href="https://www.facebook.com/share/17PzJLtxoK/?mibextid=wwXIfr">
+                        Facebook
+                      </a>
                     </Button>
                   </div>
                   <div>
                     <Button variant="outline" className="btn cursor">
-                      resume
+                      <a href="https://drive.google.com/file/d/1sspiO3JO-TBhDodMYDPusJsfKSJJqy5R/view?usp=drive_link">
+                        Resume
+                      </a>
                     </Button>
                   </div>
                 </div>
@@ -369,7 +379,7 @@ const UserProfile = () => {
               <div className="flex flex-row justify-between">
                 <p>2025, ศราวุธ คำขาด</p>
                 <img
-                  src="./src/img/image-eGdwt0ghqfF9avmbJhC9x9b8zUdJWV.png"
+                  src="/src/img/image-eGdwt0ghqfF9avmbJhC9x9b8zUdJWV.png"
                   className="w-[50px] h-[50px] m-3 "
                 />
               </div>

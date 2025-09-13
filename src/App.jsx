@@ -4,7 +4,7 @@ import AboutMe from "./components/AboutMe";
 import Skill from "./components/Skill";
 import MyProject from "./components/MyProject";
 import Contact from "./components/Contact";
-import { Button, buttonVariants } from "./components/ui/button";
+import { Button,} from "./components/ui/button";
 
 const App = () => {
   const [view, setView] = useState("user");
@@ -50,8 +50,7 @@ const App = () => {
                   variant="outline"
                   className="btn cursor-pointer  bg-red-900 text-white"
                 >
-                  {" "}
-                  Skil & Expreian{" "}
+                  Skil & Expreian
                 </Button>
               </div>
             </li>
