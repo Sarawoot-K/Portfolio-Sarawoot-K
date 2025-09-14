@@ -23,11 +23,9 @@ const UserProfile = () => {
         <div className="text-7xl p-6">Jay Sarawoot</div>
         <div className="flex justify-center p-6">
           <img
-            src="/src/img/img2906.JPG"
+            src="/src/img/img29061.jpg"
             className="w-60 h-80 rounded-3xl"
             alt="profile"
-            rel="img"
-            type="image/svg+xml"
           ></img>
         </div>
         <p className="text-center text-2xl p-6">
@@ -70,20 +68,6 @@ const UserProfile = () => {
           และการแบ่งปันความรู้ต่างๆของผมครับ
         </p>
         <div className="text-3xl flex flex-col items-center">
-          {/* <div className="flex flex-row ">
-            <img
-              src="./src/img/image-eGdwt0ghqfF9avmbJhC9x9b8zUdJWV.png"
-              className="w-[50px] h-[50px]"
-            />
-            <img
-              src="./src/img/image-eGdwt0ghqfF9avmbJhC9x9b8zUdJWV.png"
-              className="w-[50px] h-[50px]"
-            />
-            <img
-              src="./src/img/image-eGdwt0ghqfF9avmbJhC9x9b8zUdJWV.png"
-              className="w-[50px] h-[50px]"
-            />
-          </div> */}
           "รักการเรียนรู้สิ่งใหม่ๆ จนกลายเป็นเป็ด และเป็ดที่ดีคือเป็ด
           Pro(festional)"
         </div>
@@ -376,9 +360,7 @@ const UserProfile = () => {
                   src="/src/img/imgduck.png"
                   className="w-[50px] h-[50px] m-3"
                   alt="Duck image"
-                  rel="icon"
-                  type="image/svg+xml"
-                />
+                ></img>
               </div>
             </div>
           </div>
