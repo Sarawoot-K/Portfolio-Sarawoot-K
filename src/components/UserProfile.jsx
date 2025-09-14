@@ -27,7 +27,7 @@ const UserProfile = () => {
         <div className="text-7xl p-6">Jay Sarawoot</div>
         <div className="flex justify-center p-6">
           <img
-            src="../img/img29061.jpg"
+            src="/src/img/img2906.JPG"
             className="w-60 h-80 rounded-3xl"
             alt="profile"
           ></img>
@@ -375,7 +375,7 @@ const UserProfile = () => {
               <div className="flex flex-row justify-between">
                 <p>2025, ศราวุธ คำขาด</p>
                 <img
-                  src="../img/img29061.jpg"
+                  src="/src/img/imgduck.png"
                   className="w-[50px] h-[50px] m-3"
                   alt="Duck image"
                 />
