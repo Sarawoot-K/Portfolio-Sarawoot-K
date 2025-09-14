@@ -1,11 +1,7 @@
 import { Button } from "./ui/button";
 import {
   Card,
-  CardAction,
   CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
   CardTitle,
 } from "./ui/card";
 import {
@@ -31,7 +27,7 @@ const UserProfile = () => {
         <div className="text-7xl p-6">Jay Sarawoot</div>
         <div className="flex justify-center p-6">
           <img
-            src="src/img/IMG_0296.JPG"
+            src="/src/img/img29061.jpg"
             className="w-60 h-80 rounded-3xl"
             alt="profile"
           ></img>
@@ -379,7 +375,7 @@ const UserProfile = () => {
               <div className="flex flex-row justify-between">
                 <p>2025, ศราวุธ คำขาด</p>
                 <img
-                  src="src/img/image-eGdwt0ghqfF9avmbJhC9x9b8zUdJWV.png"
+                  src="/src/img/imgduck.png"
                   className="w-[50px] h-[50px] m-3 "
                 />
               </div>
