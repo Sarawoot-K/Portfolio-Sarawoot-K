@@ -1,9 +1,5 @@
 import { Button } from "./ui/button";
-import {
-  Card,
-  CardContent,
-  CardTitle,
-} from "./ui/card";
+import { Card, CardContent, CardTitle } from "./ui/card";
 import {
   Carousel,
   CarouselContent,
@@ -30,6 +26,8 @@ const UserProfile = () => {
             src="/src/img/img2906.JPG"
             className="w-60 h-80 rounded-3xl"
             alt="profile"
+            rel="img"
+            type="image/svg+xml"
           ></img>
         </div>
         <p className="text-center text-2xl p-6">
@@ -378,6 +376,8 @@ const UserProfile = () => {
                   src="/src/img/imgduck.png"
                   className="w-[50px] h-[50px] m-3"
                   alt="Duck image"
+                  rel="icon"
+                  type="image/svg+xml"
                 />
               </div>
             </div>
