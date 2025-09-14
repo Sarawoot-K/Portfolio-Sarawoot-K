@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import UserProfile from "./components/UserProfile";
-import AboutMe from "./components/AboutMe";
+import Blog from "./components/Blog";
 import Skill from "./components/Skill";
 import MyProject from "./components/MyProject";
 import Contact from "./components/Contact";
@@ -11,7 +11,7 @@ const App = () => {
 
   const views = {
     user: UserProfile,
-    aboutme: AboutMe,
+    blog: Blog,
     skill: Skill,
     myproject: MyProject,
     contact: Contact,
@@ -21,9 +21,9 @@ const App = () => {
 
   const navItems = [
     { id: "user", label: "Profile" },
-    { id: "aboutme", label: "About Me" },
     { id: "skill", label: "Skills & Experience" },
     { id: "myproject", label: "My Project" },
+    { id: "blog", label: "Blog" },
     { id: "contact", label: "Contact" },
   ];
 

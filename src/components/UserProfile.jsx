@@ -69,7 +69,7 @@ const UserProfile = () => {
         </p>
         <div className="text-3xl flex flex-col items-center">
           "รักการเรียนรู้สิ่งใหม่ๆ จนกลายเป็นเป็ด และเป็ดที่ดีคือเป็ด
-          Pro(festional)"
+          Pro(fessional)"
         </div>
       </div>
       <div className=" m-6">
