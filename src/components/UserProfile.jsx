@@ -119,7 +119,7 @@ const UserProfile = () => {
                   และพร้อมเรียนรู้เพื่อพัฒนาตนเองไปพร้อมๆกับองค์กร
                 </p>
                 <img
-                  src="/public/img/fc716dff-ba0c-461a-aaf6-c84934bfc9a4.png"
+                  src="/img/fc716dff-ba0c-461a-aaf6-c84934bfc9a4.png"
                   alt="profile"
                   className="rounded-2xl max-w-40"
                 />
@@ -136,7 +136,7 @@ const UserProfile = () => {
               <p>แพร่,ประเทศไทย</p>
               <p className="flex flex-col items-end">
                 <img
-                  src="/public/img/image-3JYNLpogg5zknunPABpdOpEjJmZN5R.png"
+                  src="/img/image-3JYNLpogg5zknunPABpdOpEjJmZN5R.png"
                   alt="ad."
                   className="max-w-15"
                 />
@@ -152,7 +152,7 @@ const UserProfile = () => {
                 "เรียนรู้และพัฒนาเพื่อชีวิตที่ดีขึ้น
                 แล้วถ่ายทอดประสบกาณ์ให้คนที่ต้องการ"
                 <img
-                  src="/public/img/image-QUD9QBFZRZ2ZYM6AV1VO3hYmCbUAq1.png"
+                  src="/img/image-QUD9QBFZRZ2ZYM6AV1VO3hYmCbUAq1.png"
                   alt="target"
                   className="max-w-20"
                 />
@@ -177,7 +177,7 @@ const UserProfile = () => {
                 <p>Internship at Generation thailand in 2025</p>
                 <div className=" flex justify-center">
                   <img
-                    src="/public/img/image (1).png"
+                    src="/img/image (1).png"
                     alt="generation"
                     className="max-w-80"
                   />
@@ -196,7 +196,7 @@ const UserProfile = () => {
                 </p>
                 <div className=" flex justify-center">
                   <img
-                    src="/public/img/29FBEB4A-45A2-426C-919A-1F75AFCD08A2 (1).png"
+                    src="/img/29FBEB4A-45A2-426C-919A-1F75AFCD08A2 (1).png"
                     alt="Dtutor"
                     className="shadow-xl rounded-4xl w-50"
                   />
@@ -231,16 +231,13 @@ const UserProfile = () => {
                       Notes And Post-It <br />
                       <div className="p-2 flex flex-col items-center">
                         <br />
-                        <img
-                          src="/public/img/Ragnote.JPG"
-                          className="rounded-2xl"
-                        />
+                        <img src="/img/Ragnote.JPG" className="rounded-2xl" />
                         <a
                           href="https://rag-notes-frontend-nine.vercel.app/profile/68c97617212858c5363b2e2d"
                           className="flex justify-center"
                         >
                           <img
-                            src="/public/img/Capture.JPG"
+                            src="/img/Capture.JPG"
                             className="rounded-xl p-2 w-1/2"
                           ></img>
                         </a>
@@ -258,11 +255,11 @@ const UserProfile = () => {
                         <br />
                         <div className="flex justify-center gap-5">
                           <img
-                            src="/public/img/Home (1).png"
+                            src="/img/Home (1).png"
                             className="rounded-2xl w-40"
                           />
                           <img
-                            src="/public/img/ChatGPT Image Jul 24, 2025, 02_52_05 PM.png"
+                            src="/img/ChatGPT Image Jul 24, 2025, 02_52_05 PM.png"
                             className="rounded-2xl w-50 h-51"
                           />
                         </div>
@@ -282,7 +279,7 @@ const UserProfile = () => {
                       <br />
                       <div className="flex justify-center">
                         <img
-                          src="/public/img/Whale wash2.png"
+                          src="/img/Whale wash2.png"
                           className="rounded-2xl shadow-xl w-40"
                         />
                       </div>
@@ -376,7 +373,7 @@ const UserProfile = () => {
                         </li>
                         <a href="https://github.com/Sarawoot-K">
                           <img
-                            src="/public/img/image (3).png"
+                            src="/img/image (3).png"
                             alt="github"
                             className="w-12"
                           />
@@ -399,8 +396,12 @@ const UserProfile = () => {
                 <p>ส่งอีเมลล์ : </p> Sarawoot.Kk27@gmail.com
               </div>
               <div className=" p-3">
-                ผมเป็น <br/>Full Stack Developer,<br/>ติวเตอร์ วิทยาศาตร์/ชีววิทยา,<br/>พิธีกร และ
-                สันทนาการฯ
+                ผมเป็น <br />
+                Full Stack Developer,
+                <br />
+                ติวเตอร์ วิทยาศาตร์/ชีววิทยา,
+                <br />
+                พิธีกร และ สันทนาการฯ
               </div>
             </div>
             <div className="p-3">
@@ -448,11 +449,13 @@ const UserProfile = () => {
               </div>
               <div className="flex flex-row justify-between">
                 <p>2025, ศราวุธ คำขาด</p>
-                <a href="#top"><img
-                  src="/img/imgduck.png"
-                  className="w-[50px] h-[50px] m-3"
-                  alt="Duck image"
-                ></img></a>
+                <a href="#top">
+                  <img
+                    src="/img/imgduck.png"
+                    className="w-[50px] h-[50px] m-3"
+                    alt="Duck image"
+                  ></img>
+                </a>
               </div>
             </div>
           </div>

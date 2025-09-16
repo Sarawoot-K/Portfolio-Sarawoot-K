@@ -28,7 +28,7 @@ const MyProject = () => {
                       <div className="p-2 flex flex-col items-center">
                         <br />
                         <img
-                          src="/public/img/Ragnote.JPG"
+                          src="/img/Ragnote.JPG"
                           className="rounded-2xl"
                         />
                         <a
@@ -36,7 +36,7 @@ const MyProject = () => {
                           className="flex justify-center"
                         >
                           <img
-                            src="/public/img/Capture.JPG"
+                            src="/img/Capture.JPG"
                             className="rounded-xl p-2 w-1/2"
                           ></img>
                         </a>
@@ -54,11 +54,11 @@ const MyProject = () => {
                         <br />
                         <div className="flex justify-center gap-5">
                           <img
-                            src="/public/img/Home (1).png"
+                            src="/img/Home (1).png"
                             className="rounded-2xl w-40"
                           />
                           <img
-                            src="/public/img/ChatGPT Image Jul 24, 2025, 02_52_05 PM.png"
+                            src="/img/ChatGPT Image Jul 24, 2025, 02_52_05 PM.png"
                             className="rounded-2xl w-50 h-51"
                           />
                         </div>
@@ -78,7 +78,7 @@ const MyProject = () => {
                       <br />
                       <div className="flex justify-center">
                         <img
-                          src="/public/img/Whale wash2.png"
+                          src="/img/Whale wash2.png"
                           className="rounded-2xl shadow-xl w-40"
                         />
                       </div>

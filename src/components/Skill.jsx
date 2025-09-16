@@ -66,7 +66,7 @@ function Skill() {
                 <p>Internship at Generation thailand in 2025</p>
                 <div className=" flex justify-center">
                   <img
-                    src="/public/img/image (1).png"
+                    src="/img/image (1).png"
                     alt="generation"
                     className="max-w-80"
                   />
@@ -85,7 +85,7 @@ function Skill() {
                 </p>
                 <div className=" flex justify-center">
                   <img
-                    src="/public/img/29FBEB4A-45A2-426C-919A-1F75AFCD08A2 (1).png"
+                    src="/img/29FBEB4A-45A2-426C-919A-1F75AFCD08A2 (1).png"
                     alt="Dtutor"
                     className="shadow-xl rounded-4xl w-50"
                   />
