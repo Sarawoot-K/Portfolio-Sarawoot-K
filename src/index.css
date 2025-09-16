@@ -4,12 +4,16 @@
 
 @custom-variant dark (&:is(.dark *));
 
-html,
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Kanit", sans-serif;
   font-weight: 300;
   font-style: normal;
 }
+
 
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);

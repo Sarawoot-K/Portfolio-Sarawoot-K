@@ -26,7 +26,7 @@ const Contact = () => {
           </div>
         </Card>
       </div>
-      <div >
+      <div>
         <Card>
           <div className="flex flex-col gap-3 text-center">
             <div className="rounded-2xl p-4">
@@ -34,38 +34,53 @@ const Contact = () => {
             </div>
             <div className="rounded-2xl p-4">
               <p>
-                ผมเป็นโปรแกรมเมอร์มือใหม่ไฟแรงที่พร้อมลุยงาน
-                และพร้อมเรียนรู้เพื่อพัฒนาตนเองไปพร้อมๆกับองค์กร
+                ผมเป็น Full Stack Developer, ติวเตอร์ วิทยาศาตร์/ชีววิทยา,
+                พิธีกร และ สันทนาการฯ
               </p>
             </div>
             <div className="flex justify-center">
               <div className="flex flex-wrap gap-3">
                 <div>
-                  <Button variant="outline" className="btn cursor bg-red-800 text-white">
+                  <Button
+                    variant="outline"
+                    className="btn cursor bg-red-800 text-white"
+                  >
                     <a href="https://www.linkedin.com/in/sarawoot-khumkhat/">
                       link-in
                     </a>
                   </Button>
                 </div>
                 <div>
-                  <Button variant="outline" className="btn cursor  bg-red-800 text-white">
+                  <Button
+                    variant="outline"
+                    className="btn cursor  bg-red-800 text-white"
+                  >
                     <a href="https://line.me/ti/p/KHUJwV-TTw">line</a>
                   </Button>
                 </div>
                 <div>
-                  <Button variant="outline" className="btn cursor  bg-red-800 text-white">
+                  <Button
+                    variant="outline"
+                    className="btn cursor  bg-red-800 text-white"
+                  >
                     <a href="https://www.facebook.com/share/17PzJLtxoK/?mibextid=wwXIfr">
                       Facebook
                     </a>
                   </Button>
                 </div>
                 <div>
-                  <Button variant="outline" className="btn cursor  bg-red-800 text-white">
+                  <Button
+                    variant="outline"
+                    className="btn cursor  bg-red-800 text-white"
+                  >
                     <a href="mailto:Sarawoot.Kk27@gmail.com">E-mail</a>
                   </Button>
                 </div>
                 <div>
-                  <Button variant="outline" className="btn cursor  bg-red-800 text-white">
+                  <Button
+                    variant="outline"
+                    className="btn cursor  bg-red-800 text-white"
+                  >
                     <a href="https://drive.google.com/file/d/1sspiO3JO-TBhDodMYDPusJsfKSJJqy5R/view?usp=drive_link">
                       Resume
                     </a>

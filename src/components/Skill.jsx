@@ -11,7 +11,13 @@ function Skill() {
   return (
     <div className=" w-full md:w-1/2">
       <div className=" m-6">
-        <div className="text-2xl text-center">ทักษะและความเชี่ยวชาญ</div>
+        <div className="text-3xl text-center">ทักษะและความเชี่ยวชาญ</div>
+        <div>
+          <p className="text-center text-xl p-6">
+            Full Stack Developer <br />
+            ติวเตอร์ วิทยาศาตร์/ชีววิทยา, พิธีกร และ สันทนาการฯ
+          </p>
+        </div>
         <div className="flex flex-wrap justify-center gap-2 p-3">
           <div>
             <Badge>
@@ -44,12 +50,6 @@ function Skill() {
             </Badge>
           </div>
         </div>
-        <div>
-          <p className="text-center text-xl p-6">
-            Full Stack Developer <br />
-            ติวเตอร์ วิทยาศาตร์/ชีววิทยา, พิธีกร และ สันทนาการฯ
-          </p>
-        </div>
       </div>
       <div className="m-6">
         <div className="">
@@ -60,32 +60,44 @@ function Skill() {
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1">
               <AccordionTrigger>
-                <p className="text-2xl">Generation Thailand</p>
+                <p className="text-xl">Generation Thailand</p>
               </AccordionTrigger>
               <AccordionContent>
-                <p className="text-xl">
-                  Internship at Generation thailand in 2025
-                </p>
+                <p>Internship at Generation thailand in 2025</p>
+                <div className=" flex justify-center">
+                  <img
+                    src="/public/img/image (1).png"
+                    alt="generation"
+                    className="max-w-80"
+                  />
+                </div>
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
               <AccordionTrigger>
-                <p className="text-2xl">D Tutor</p>
+                <p className="text-xl">D Tutor</p>
               </AccordionTrigger>
               <AccordionContent>
-                <p className="text-xl">
+                <p>
                   Freelance Tutor | 2018-present
                   <br />
                   online section & onsite section
                 </p>
+                <div className=" flex justify-center">
+                  <img
+                    src="/public/img/29FBEB4A-45A2-426C-919A-1F75AFCD08A2 (1).png"
+                    alt="Dtutor"
+                    className="shadow-xl rounded-4xl w-50"
+                  />
+                </div>
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
               <AccordionTrigger>
-                <p className="text-2xl text-gray-500">Coming Soon ...</p>
+                <p className="text-xl text-gray-400">Coming Soon ...</p>
               </AccordionTrigger>
               <AccordionContent>
-                <p className="text-xl">detail</p>
+                <p>detail</p>
               </AccordionContent>
             </AccordionItem>
           </Accordion>
