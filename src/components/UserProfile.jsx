@@ -332,7 +332,19 @@ const UserProfile = () => {
                 <div className="">
                   <Card>
                     <CardContent>
-                      <li className="text-xl">css</li>
+                      <li className="text-xl">HTML</li>
+                      <div>
+                        <img src="" alt="" />
+                      </div>
+                    </CardContent>
+                    <CardContent>
+                      <li className="text-xl">CSS</li>
+                      <div>
+                        <img src="" alt="" />
+                      </div>
+                    </CardContent>
+                    <CardContent>
+                      <li className="text-xl">Tailwind</li>
                       <div>
                         <img src="" alt="" />
                       </div>
@@ -352,6 +364,12 @@ const UserProfile = () => {
                   <Card>
                     <CardContent>
                       <li className="text-xl">React</li>
+                    </CardContent>
+                    <CardContent>
+                      <li className="text-xl">Node.js</li>
+                    </CardContent>
+                    <CardContent>
+                      <li className="text-xl">Express</li>
                     </CardContent>
                   </Card>
                 </div>
@@ -379,6 +397,12 @@ const UserProfile = () => {
                           />
                         </a>
                       </div>
+                    </CardContent>
+                    <CardContent>
+                      <li className="text-xl">MonggoDB</li>
+                    </CardContent>
+                    <CardContent>
+                      <li className="text-xl">PostgreSQL</li>
                     </CardContent>
                   </Card>
                 </div>
