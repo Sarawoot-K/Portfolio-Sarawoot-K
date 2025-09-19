@@ -247,6 +247,22 @@ const UserProfile = () => {
                 </CarouselItem>
                 <CarouselItem>
                   <Card>
+                    <CardContent className="h-80">
+                      <p className="text-red-700">Whale Wash</p>
+                      <p>บริการซักผ้าในหอพัก</p>
+                      <br />
+                      <div className="flex justify-center">
+                        <a href="https://sprint2-project3-v2.vercel.app/">
+                        <img
+                          src="/img/Whale wash2.png"
+                          className="rounded-2xl shadow-xl w-40"
+                        /></a>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </CarouselItem>
+                <CarouselItem>
+                  <Card>
                     <CardContent className="min-h-80">
                       <p className="text-red-700">Sole Whisper</p>
                       <div>
@@ -268,25 +284,6 @@ const UserProfile = () => {
                           Comming soon...
                         </p>
                       </div>
-                    </CardContent>
-                  </Card>
-                </CarouselItem>
-                <CarouselItem>
-                  <Card>
-                    <CardContent className="h-80">
-                      <p className="text-red-700">Whale Wash</p>
-                      <p>บริการซักผ้าในหอพัก</p>
-                      <br />
-                      <div className="flex justify-center">
-                        <img
-                          src="/img/Whale wash2.png"
-                          className="rounded-2xl shadow-xl w-40"
-                        />
-                      </div>
-                      <br />
-                      <p className="text-gray-400 text-center">
-                        Comming soon...
-                      </p>
                     </CardContent>
                   </Card>
                 </CarouselItem>
